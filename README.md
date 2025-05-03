@@ -2,6 +2,15 @@
 
 > Adapted from [this git-sync](https://github.com/simonthum/git-sync).
 
+![in case of fire: git commit, git push, git out](./git-fire.webp)
+
+<div style="width: 700px; text-align: center;">
+    <small>
+        <a href="https://www.printables.com/model/792493-warning-sign-in-case-of-fire-git-commit-git-push-g">Image credits</a>
+    </small>
+    <br/><br/>
+</div>
+
 + `git-sync` synchronizes the current branch to a git remote.
 + `git-sync` automates git synchronization for repositories that prioritize tracking over maintaining a clean commit history.
 + `git-sync` is a smarter way to `git add -u; git commit -m "changes"; git push` that:

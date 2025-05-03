@@ -3,6 +3,8 @@ set -euo pipefail
 #
 # Synchronizes tracking repositories.
 #
+# Source: https://github.com/lucaspar/git-sync
+#
 # Run `git-sync -h` for help
 #
 # This script intends to sync via git near-automatically
