@@ -392,16 +392,16 @@ function sync_submodules_recursively() {
     THIS_SCRIPT="$(realpath "${0}")"
     OPTIONS=
     if [[ ${DEBUG} == "true" ]]; then
-        OPTIONS+=" -d"
+        OPTIONS+=" --debug"
     fi
     if [[ ${sync_new_files_cli} == "true" ]]; then
-        OPTIONS+=" -n"
+        OPTIONS+=" --sync-new-files"
     fi
     if [[ ${sync_branch_cli} == "true" ]]; then
-        OPTIONS+=" -s"
+        OPTIONS+=" --sync-branch"
     fi
     if [[ ${sync_submodules} == "true" ]]; then
-        OPTIONS+=" -r"
+        OPTIONS+=" --recursive"
     fi
     OLD_GIT_CMD="${GIT_CMD}"
     GIT_CMD="git"
